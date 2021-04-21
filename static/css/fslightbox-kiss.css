@@ -1,0 +1,4 @@
+.content .gallery a, 
+.content .gallery a:hover {
+    border-bottom: none;
+}

@@ -1,0 +1,32 @@
+<!-- TODO 1. Add check for images. If there are no images, just does not render anything -->
+
+
+
+<div class="gallery">
+<p>
+    Hier kommt die Gallerie.
+</p>
+
+<!-- TODO 2. Add iterating over all images -->
+
+<!-- TODO 3. Render thumbnails with dynamic width -->
+
+<!-- TODO 4. Make HUGO create thumbnails from base images -->
+
+
+<a data-fslightbox data-type="image" data-alt="Example image description" href="https://pbs.twimg.com/media/EyKVqqoWgAEIX4Y?format=jpg&name=large">
+    <img src="https://pbs.twimg.com/media/EyKVqqoWgAEIX4Y?format=jpg&name=large" width="300px"/>
+</a>
+<a data-fslightbox data-type="image" href="https://pbs.twimg.com/media/EyKVqqoWgAEIX4Y?format=jpg&name=large">
+    <img src="https://pbs.twimg.com/media/EyKVqqoWgAEIX4Y?format=jpg&name=large" width="300px"/>
+</a>
+<a data-fslightbox data-type="image" href="https://pbs.twimg.com/media/EyKVqqoWgAEIX4Y?format=jpg&name=large">
+    <img src="https://pbs.twimg.com/media/EyKVqqoWgAEIX4Y?format=jpg&name=large" width="300px"/>
+</a>
+</div>
+
+<script src="/js/fslightbox.js"></script>
+<script>
+    fsLightbox.props.loadOnlyCurrentSource = true;
+</script>
+<link rel="stylesheet" href="/css/fslightbox-kiss.css">
